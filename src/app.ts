@@ -1,7 +1,6 @@
-import { Router } from 'express';
 import { envs } from './config';
-import { Server } from './presentation/server';
-import { AppRoutes } from './presentation/routes';
+import { Server } from './server';
+import { AppRoutes } from './routes';
 
 (() => {
   main();
